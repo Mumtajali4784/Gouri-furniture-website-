@@ -1,48 +1,111 @@
- <!DOCTYPE html>
-  <html lang="hi">
+<!DOCTYPE html>
+<html lang="hi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>गौरी फर्नीचर एण्ड इलेक्ट्रॉनिक्स</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>Gouri Furniture</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .owner-names {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      padding: 0 10px;
+      margin-bottom: 5px;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      background: yellow;
+      padding: 10px;
+      display: inline-block;
+    }
+    .contact {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .social-media {
+      margin-top: 30px;
+    }
+    .social-media a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: black;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    .social-media img {
+      width: 24px;
+      margin-right: 10px;
+    }
+    .whatsapp-links {
+      margin-left: 34px;
+    }
+    .whatsapp-links a {
+      color: green;
+      display: block;
+      margin-top: 5px;
+    }
+  </style>
 </head>
 <body>
+
+  <div class="owner-names">
+    <span>अशरफ गौरी</span>
+    <span>मुमताज अली</span>
+  </div>
+
   <div class="header">
-    <div style="display: flex; justify-content: space-between; padding: 0 10px;">
-  <span style="font-weight: bold;">अशरफ गौरी</span>
-  <span style="font-weight: bold;">मुमताज अली</span>
-    </div>
-    <h1>गौरी फर्नीचर एण्ड इलेक्ट्रॉनिक्स</h1>
-    <div class="contact">
-      <span>📞 7223842715</span>
-      <span>📞 6375113750</span>
-    </div>
+    <div class="title">गौरी फर्नीचर एण्ड इलेक्ट्रॉनिक्स</div>
   </div>
 
-  <div class="main-content">
-    <div class="offer">
-      <div class="zero-finance">0% Financing</div>
-      <div class="special">स्पेशल दहेज पैकेज</div>
-      <div class="mobile-offer">हमारे यहाँ पर मोबाइल फोन भी उपलब्ध है</div>
-    </div>
-
-    <div class="items">
-      <img src="flyer.jpg" alt="Product Showcase"/>
-    </div>
-
-    <div class="description">
-      हमारे यहाँ पर सभी प्रकार के फर्नीचर व इलेक्ट्रॉनिक्स आइटम उपलब्ध है
-    </div>
-
-    <div class="finance-note">
-      हमारे यहाँ पर फाइनेंस सुविधा उपलब्ध है
-    </div>
+  <div class="contact">
+    📞 संपर्क करें: 7223842715, 6375113750
   </div>
 
-  <footer>
-    <div class="logo">💳Bajaj Finserv</div>
-  </footer>
+  <div class="social-media">
+    <h3>सोशल मीडिया:</h3>
 
-  <script src="script.js"></script>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/gouri_furniture_and_electronic" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Icon">
+      @gouri_furniture_and_electronic
+    </a>
+
+    <!-- WhatsApp -->
+    <div>
+      <a href="#" style="pointer-events: none;">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Icon">
+        WhatsApp:
+      </a>
+      <div class="whatsapp-links">
+        <a href="https://wa.me/917223842715?text=Namaste%20Gouri%20Furniture%20se%20baat%20karni%20hai" target="_blank">📞 7223842715</a>
+        <a href="https://wa.me/916375113750?text=Namaste%20Gouri%20Furniture%20se%20baat%20karni%20hai" target="_blank">📞 6375113750</a>
+      </div>
+    </div>
+
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/share/1NaSi7ytDg/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook Icon">
+      Facebook
+    </a>
+
+    <!-- Google Maps -->
+    <a href="https://www.google.com/maps/place/your_google_map_location" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Map Icon">
+      हमारी लोकेशन देखें (https://maps.app.goo.gl/Vpru2EbKje4GRFDg6)
+    </a>
+  </div>
+
 </body>
 </html>
