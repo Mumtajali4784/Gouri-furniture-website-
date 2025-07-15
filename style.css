@@ -1,0 +1,82 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #f9f871, #b1ecff);
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-align: center;
+}
+
+.header {
+  background-color: #ffdf00;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+  color: #0040ff;
+  text-shadow: 2px 2px #ff9900;
+}
+
+.contact {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.offer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.zero-finance, .special, .mobile-offer {
+  background-color: #ff4b4b;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 10px;
+  flex: 1 1 200px;
+}
+
+.items img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  margin: 20px 0;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: bold;
+  background: #fff8dc;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.finance-note {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #001f3f;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer .logo {
+  font-size: 18px;
+  font-weight: bold;
+}
